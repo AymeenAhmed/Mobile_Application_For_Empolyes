@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LeaveActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textleave1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text=" Leave/Absence Request "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+        android:id="@+id/textleave2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="For the Attention of the Human Resources "
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textleave3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="  Subject: Request for Partial Leave/Absence :"
+        android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textleave4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Post :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textleave5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Leave Type"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp" android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textleave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Leave Start Date :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextDate5"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:layout_marginTop="10dp" android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textleave7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Leave End Date :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextDate6"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:layout_marginTop="10dp" android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textleave8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Reason :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="270dp"
+            android:layout_height="75dp"
+            android:ems="10"
+            android:inputType="textPersonName" android:layout_marginTop="10dp" android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="send"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

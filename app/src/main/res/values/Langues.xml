@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="langues" >
+    <item>Choose a Langue</item>
+    <item>English</item>
+    <item>Frensh </item>
+    <item>Arabic</item>
+</string-array>
+</resources>

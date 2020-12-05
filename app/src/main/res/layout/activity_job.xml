@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textjob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Job Change Request"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textjob2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" For the Attention of the Human Resources "
+            android:textSize="20sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/textjob3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="  Subject: Request for Job Change :"
+            android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textjob4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I hereby come to ask you to agree to change"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textjob5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="   Current post :"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Curent1"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textjob6"
+                android:layout_width="272dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:text="  Desired post:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Curent2"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textjob7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Pending your response, please accept, Sir, the expression of my best regards." />
+
+            <TextView
+                android:id="@+id/textJob8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="  Phone Number :"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextPhone2"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textjob9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="NB: No request will be taken into account after 72 hours of posting the lists." />
+
+            <TextView
+                android:id="@+id/textjob10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  Signature" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:text="send"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

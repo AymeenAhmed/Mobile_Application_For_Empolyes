@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intents" >
+        <item>Choose a request</item>
+        <item>Attendance Certificate</item>
+        <item>Salary Certificate </item>
+        <item>Work Certificate</item>
+        <item>Job Change Request</item>
+        <item>Request for Partial Leave/Absence</item>
+        <item>Other Free Request</item>
+    </string-array>
+
+
+
+</resources>
